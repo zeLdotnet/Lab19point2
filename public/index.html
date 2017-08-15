@@ -8,6 +8,11 @@
 	</head>
 
 	<body ng-app="phraseApp" ng-controller="phraseController">
-		<h2>{{phrases}}</h2>
+		<div id="contain">
+			<h2>{{phrases.quote}}</h2>
+				<div id="img">
+					<img src="{{phrases.img}}"/>
+				</div>
+		</div>
 	</body>
 </html>
