@@ -1,6 +1,5 @@
 var express = require("express");
 var app = express();
-
 app.use(express.static(__dirname + "/public"));
 
 var phrases = [
@@ -17,7 +16,6 @@ var phrases = [
 			quote: "Sometimes science is more art than science, Morty. Lot of people don't get that. - Rick Sanchez", 
 			img: "images/science.jpg"
 		},
-
 		{
 			quote: "Get Schwifty - Rick Sanchez", 
 			img: "images/schwifty.jpg"
@@ -32,7 +30,8 @@ var phrases = [
 		},
 		{
 			quote: "It's fine, everythings is fine. There's an infinite number of realities Morty, and in a few dozens of those I got lucky and turned everything back to normal. - Rick Sanchez",
-			img: "images/rickandmorty.jpg"},
+			img: "images/rickandmorty.jpg"
+		},
 		{
 			quote: "You're our boy dog, don't even trip - Rick Sanchez", 
 			img: "images/tripnot.jpg"
@@ -70,7 +69,7 @@ var phrases = [
 			img: "images/szechuan sauce.jpg"
 		},
 		{
-			quote: "With all due respect; I don't need your permission. I'm a king. - Jon Snow", 
+			quote: "With respect m'Grace; I don't need your permission. I am a king. - Jon Snow", 
 			img: "images/jon snow.jpg"
 		},
 		{
@@ -86,7 +85,6 @@ var phrases = [
 			img: "images/tywin.jpg"
 		} 
 	];
-
 
 
 app.get('/api/phrases', function(req, res){

@@ -4,12 +4,16 @@ body {
 
 #contain {
 	background-color:cornsilk;
+	padding:1.5px;
+	border:2.5px inset darkred;
+	border-radius: 25px 25px 25px 25px;
+
 }
 
 h2 {
 	text-align:center;
 	padding-top: 0.25%;
-	border:1.5px outset;
+	border:2px outset darkred;
 	margin:1.5%;
 	background-color: moccasin;
 }
@@ -19,6 +23,7 @@ img {
 	border-radius:15px 15px 15px 15px;
 	max-width: 50%;
 	min-width: 25%;
+	border:3px inset moccasin;
 
 }
 
